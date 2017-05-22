@@ -45,5 +45,31 @@ class FootballScores
   end
 end
 
-f = FootballScores.new
-p f.find_all_scores([2,3,7], 10)
+# Tests(Uncomment below to test)
+
+# f1 = FootballScores.new
+# p f1.find_all_scores([2, 3, 7], 10) == [[2, 2, 2, 2, 2],
+#                                         [2, 2, 3, 3],
+#                                         [2, 3, 2, 3],
+#                                         [2, 3, 3, 2],
+#                                         [3, 2, 2, 3],
+#                                         [3, 2, 3, 2],
+#                                         [3, 3, 2, 2],
+#                                         [3, 7],
+#                                         [7, 3]]
+#
+# f2 = FootballScores.new
+# p f2.find_all_scores([2, 3, 7], 6) == [[2, 2, 2],
+#                                        [3, 3]]
+# 
+# f3 = FootballScores.new
+# p f3.find_all_scores([2, 3, 7], 1) == []
+#
+# f4 = FootballScores.new
+# p f4.find_all_scores([2, 3, 4], 2) == [[2]]
+#
+# f5 = FootballScores.new
+# p f5.find_all_scores([], 10) == []
+#
+# f6 = FootballScores.new
+# p f6.find_all_scores([2], 4) == [[2, 2]]
