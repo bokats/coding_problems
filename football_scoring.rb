@@ -59,7 +59,7 @@ end
 # f2 = FootballScores.new
 # p f2.find_all_score_combinations([2, 3, 7], 6) == [[2, 2, 2],
 #                                                    [3, 3]]
-# #
+#
 # f3 = FootballScores.new
 # p f3.find_all_score_combinations([2, 3, 7], 1) == []
 #
