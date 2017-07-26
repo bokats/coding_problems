@@ -4,4 +4,4 @@ const curry = (firstNumber) => {
   };
 };
 
-console.log(curry(1)(2));
+console.log(curry(1)(3));
